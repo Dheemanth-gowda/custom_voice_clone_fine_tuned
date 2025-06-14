@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Storage
+storage/audio/raw/*
+storage/audio/processed/*
+storage/audio/generated/*
+storage/models/*
+!storage/audio/raw/.gitkeep
+!storage/audio/processed/.gitkeep
+!storage/audio/generated/.gitkeep
+!storage/models/.gitkeep
+
+# Environment variables
+.env
+.env.*
+
+# Alembic
+alembic/versions/*
+!alembic/versions/.gitkeep
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ML specific
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt 
+
+/Backend_Road_maps
